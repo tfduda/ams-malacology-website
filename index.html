@@ -5,63 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>American Malacological Society</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            color: #333;
-            background-color: #f9f9f9;
-            text-align: center;
+        body { 
+            font-family: Arial, sans-serif; 
+            line-height: 1.6; 
+            margin: 0; 
+            padding: 0; 
+            color: #333; 
+            background-color: #f9f9f9; 
+            text-align: left; 
         }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
+        .container { 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px; 
         }
-        header {
-            background-color: #fff;
-            padding: 20px 0;
-            border-bottom: 1px solid #ddd;
+        header { 
+            background-color: #fff; 
+            padding: 20px 0; 
+            border-bottom: 1px solid #ddd; 
+            text-align: center; 
         }
-        .header-image {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto 20px auto;
+        .header-image { 
+            max-width: 100%; 
+            height: auto; 
+            display: block; 
+            margin: 0 auto; 
         }
-        h1 {
-            color: #1a365d;
-            margin-bottom: 10px;
+        h1 { 
+            color: #1a365d; 
+            margin-bottom: 10px; 
         }
-        main {
-            background: #fff;
-            padding: 40px 20px;
-            margin-top: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        main { 
+            background: #fff; 
+            padding: 40px 20px; 
+            margin-top: 20px; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
         }
-        p {
-            font-size: 1.1em;
-            margin-bottom: 30px;
+        p { 
+            font-size: 1.1em; 
+            margin-bottom: 30px; 
         }
-        .btn {
-            display: inline-block;
-            background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
-            padding: 12px 24px;
-            font-weight: bold;
-            border-radius: 4px;
-            transition: background-color 0.2s;
+        .btn-wrapper {
+            text-align: center; 
+            margin: 30px 0;
         }
-        .btn:hover {
-            background-color: #0056b3;
+        .btn { 
+            display: inline-block; 
+            background-color: #007bff; 
+            color: #fff; 
+            text-decoration: none; 
+            padding: 12px 24px; 
+            font-weight: bold; 
+            border-radius: 4px; 
+            transition: background-color 0.2s; 
         }
-        footer {
-            margin-top: 50px;
-            font-size: 0.9em;
-            color: #777;
+        .btn:hover { 
+            background-color: #0056b3; 
+        }
+        footer { 
+            margin-top: 50px; 
+            font-size: 0.9em; 
+            color: #777; 
+            text-align: center; 
+        }
+        .section-block { 
+            margin-top: 40px; 
+            padding-top: 30px; 
+            border-top: 1px solid #eee; 
+        }
+        .section-title { 
+            color: #1a365d; 
+            font-size: 1.4em; 
+            margin-bottom: 15px; 
+        }
+        .section-text { 
+            font-size: 1em; 
+            line-height: 1.7; 
+            color: #444; 
+            margin-bottom: 15px; 
         }
     </style>
 </head>
@@ -69,28 +91,32 @@
 
     <div class="container">
         <header>
-            <!-- Header Image Tag -->
-            <a href="https://ams.wildapricot.org"><img src="AMS_Banner_Complete.png" alt="American Malacological Society Header" class="header-image"></a>
+            <a href="https://ams.wildapricot.org">
+                <img src="AMS_Banner_Complete.png" alt="American Malacological Society Header" class="header-image">
+            </a>
         </header>
-
+        
         <main>
-            <p>Welcome to the official domain of the <strong>American Malacological Society</strong> (<strong>ams-malacology.org</strong>).</p> 
-            <p>We use WildApricot as our primary association management software and website platform.</p>
-            <p>Click the button below to continue to our WildApricot site (<a href="https://ams.wildapricot.org"><strong>ams.wildapricot.org</strong>)</a>.</p>
-           
-            <a href="https://ams.wildapricot.org" class="btn">Go to AMS WildApricot Site</a>
-
-            <!-- Historical Background Section -->
-            <div style="margin-top: 40px; padding-top: 30px; border-top: 1px solid #eee; text-align: left; max-width: 700px; margin-left: auto; margin-right: auto;">
-                <h2 style="color: #1a365d; font-size: 1.4em; margin-bottom: 15px;">The American Malacological Society (est. 1931)</h2>
-                <p style="font-size: 1em; line-height: 1.7; color: #444; margin-bottom: 15px;">
-                    The American Malacological Union, now the American Malacological Society, was founded in 1931 chiefly through the organizing efforts of Norman W. Lermond, a New England farmer, utopian community founder, Socialist Party politician, and amateur naturalist. Although a national organization of malacologists had long been discussed, Lermond undertook correspondence with amateur and professional malacologists throughout the country, and eventually gathered the names of 192 persons interested in forming an organization. Its first meeting was held on April 30-May 2, 1931, in Philadelphia, Pennsylvania, with 29 attendees from 12 states. Its first president was Henry A. Pilsbry of Philadelphia's Academy of Natural Sciences.
-                </p>
-                <p style="font-size: 1em; line-height: 1.7; color: #444; margin-bottom: 15px;">
-                    In 1997, an Internet presence was established with the introduction of a "home page" accessible via the World Wide Web to anyone with access to the Internet. Early fall of 1998, the membership voted to change the name of the organization from the American Malacological Union (AMU) to the American Malacological Society (AMS). In 1931 the choice of the word "Union" was appropriate as the organization was a group of professionals, a union of shell clubs, and individual amateurs. Over the years the word "Union" evolved to refer to trade and labor groups. The word "Union" presented problems for treasurers in establishing banking arrangements and for Presidents seeking outside funding for various functions of the organization. The name change brought the organization more in line with comparable societies with a better understanding of its focus, goals, and activities.
-                </p>
+            <p>Welcome to the official domain of the <strong>American Malacological Society</strong> (<strong>ams-malacology.org</strong>).</p>
+            <p>We use WildApricot as our primary association management software. While details of the Society are included below, the WildApricot site (<strong>ams.wildapricot.org</strong>) includes access to more information about the Society (e.g., membership, publications, awards, meetings, and resources).</p>
+            
+            <div class="btn-wrapper">
+                <a href="https://ams.wildapricot.org" class="btn">Go to AMS WildApricot Site</a>
             </div>
 
+            <div class="section-block">
+                <h2 class="section-title">Our Mission & Programs</h2>
+                <p class="section-text">The AMS is a nonprofit scientific organization focused on the study and conservation of mollusks with several hundred active members. Our primary activities include hosting annual meetings, awarding student research grants, and publishing the <em>American Malacological Bulletin</em>.</p>
+            </div>
+            <div class="section-block">
+                <h2 class="section-title">Organization Verification Details</h2>
+                <p class="section-text"><strong>Legal Name:</strong> American Malacological Society<br><strong>Charity ID / Federal Tax ID (EIN):</strong> 94-6127176</p>
+            </div>
+
+            <div class="section-block">
+                <h2 class="section-title">History</h2>
+                <p class="section-text">Founded by Norman W. Lermond as the American Malacological Union, the society was established to connect professionals and amateur naturalists, holding its first meeting in Philadelphia in 1931. The name was changed to the American Malacological Society in 1998 to reflect its focus and improve organizational functions.</p>
+            </div>
         </main>
 
         <footer>
